@@ -1,7 +1,7 @@
 import {type as findSuggestionsType } from '../actions/findSuggestions';
 import items from '../../data/items';
 
-const defaultState = [];
+const defaultState = items;
 
 function reducer(state = defaultState, {type, payload}) {
   switch (type) {

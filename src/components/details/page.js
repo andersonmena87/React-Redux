@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-function Page(porps) {
+function Page(props) {
   return (
     <Fragment>
       Details

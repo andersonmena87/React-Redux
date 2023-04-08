@@ -1,4 +1,6 @@
-const defaultState = 0;
+import items from "../../data/items";
+
+const defaultState = items;
 
 function reducer(state = defaultState, {type, payload}) {
   switch (type) {
